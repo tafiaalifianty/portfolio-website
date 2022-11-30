@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif:400,400italic,700|Open+Sans:400,600,700'); 
+@import url('font-awesome.css');  
+
+* {
+    font-family: "Open Sans";
+}
+
+.navbar-nav {
+    font-weight: bold;
+}
+
+.nav-focus{
+    color: #0099ff !important
+}
+
+.container-p {
+    padding-bottom: 2rem;
+    padding-left: 17rem;
+    padding-right: 17rem;
+    margin-bottom: 0;
+}
+
+.carousel-caption-content {
+    background-color: rgba(255, 255, 255, 0.9);
+    flex: 33.33%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    margin-left: 30rem;
+    margin-right: 30rem;
+}
+
+.carousel-caption-custom {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    position: absolute;
+    bottom: 1.25rem;
+    text-align: center;
+    padding-bottom: 1.25rem;
+    padding-top: 1.25rem;
+}
+
+.carousel-caption-custom h5 {
+    color: black;
+    font-size: xxx-large;
+    font-weight: bold;
+}
+
+.carousel-caption-custom p {
+    color: black;
+    font-weight: bold;
+    font-size: large;
+}
+
+.modal-content {
+    width: 100% !important;
+}
+
+.modal-dialog{
+    max-width: 60% !important;
+}
+
+.pricing-card {
+    width: 200px;
+}
+
+.btn-pricing {
+    background-color: #008ae6;
+    border-color: #FFFFFF;
+    border-radius: 5px;
+    color: white;
+    height: 40px;
+    width: 120px;
+}
+
+#feature-course {
+    padding: 5rem 10rem 5rem 10rem;
+}
+
+#feature-course > h1 {
+    text-align: center;
+    font-weight: bold;
+}
+
+#feature-course > p {
+    text-align: center;
+    color: #676767;
+}
+
+.card-text {
+    color: #676767;
+}
+
+.quote {
+    background-color: #efefef;
+    text-align: center;
+    padding: 5rem 0;
+}
+
+#course-offer {
+    margin-bottom: 3rem;
+}
+
+#course-offer > h1 {
+    text-align: center;
+    font-weight: bold;
+}
+
+#course-offer > p {
+    text-align: center;
+    color: #676767;
+}
+
+.card-offer {
+    background-color: #efefef;
+}
+
+.footer {
+    background-color: #0099ff;
+    color: white;
+    width: 100%;
+    bottom: 0;
+}
+
+.footer-text * {
+    color: white;
+    margin-bottom: 0;
+}
+
+.footer-text h5 {
+    color: white;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+
+footer i {
+    color: white;
+}
+
+.icon-feature-container i {
+    color: white;
+    font-size: 5em;
+    padding: 5rem 0;
+}
+
+/* Generate Color Using https://imagecolorpicker.com/en */
+
+#red-card {
+    text-align: center;
+    background-color: #ed5440;
+}
+
+#pink-card {
+    text-align: center;
+    background-color: #d866b2;
+}
+
+#green-card {
+    text-align: center;
+    background-color: #4ac467;
+}
+
+#blue-card {
+    text-align: center;
+    background-color: #2aaef0;
+}
+
+.card-title {
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
+    font-weight: bold;
+}
+
+.pricing-header {
+    text-align: center;
+    background-color: #f9f9f9;
+    height: 150px;
+}
+
+.card-footer {
+    text-align: center;
+}
+
+.price-text {
+    color: #3eaef0;
+}
+
+.page-headline {
+    background-color: #0099ff;
+    color: white;
+}
+
+.page-headline > .container {
+    font-weight: bold;
+    font-size: x-large;
+}
+
+#btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+  }

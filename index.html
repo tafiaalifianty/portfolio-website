@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="assets/css/font-awesome.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+</head>
+<body>
+    <!-- NAVIGATION BAR -->
+    <section class="nav">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg my-2 px-1 topnav">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"><img alt="logo" src="../assets/img/logo.png"></a>
+                    <button aria-controls="navbarId" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#navbarId" data-bs-toggle="collapse" type="button">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse p-1 justify-content-end" id="navbarId">
+                        <div class="navbar-nav">
+                            <a class="nav-link nav-focus" href="./index.html">HOME</a>
+                            <a class="nav-link" href="./about.html">ABOUT US</a>
+                            <a class="nav-link" href="./courses.html">COURSES</a>
+                            <a class="nav-link" href="./portfolio.html">PORTFOLIO</a>
+                            <a class="nav-link" href="./contact.html">CONTACT</a>
+                            <a class="nav-link" href="./tracker.html">TRACKER</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </section>
+
+    <!-- CAROUSEL -->
+    <section class="carousel slide" data-bs-ride="carousel" id="carouselId">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img alt="slide 1" class="d-block w-100" src="./assets/img/slides/1.jpg">
+                <div class="carousel-caption-custom">
+                    <div class="carousel-caption-content">
+                        <h5>Online Education</h5>
+                        <p>Awesome Template get it now</p>
+                        <button class="btn-pricing" data-bs-toggle="modal" data-bs-target="#pricingModal">See Pricing</button>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img alt="slide 2" class="d-block w-100" src="./assets/img/slides/2.jpg">
+                <div class="carousel-caption-custom">
+                    <div class="carousel-caption-content">
+                        <h5>School Education</h5>
+                        <p>Awesome Template get it now</p>
+                        <button class="btn-pricing" data-bs-toggle="modal" data-bs-target="#pricingModal">See Pricing</button>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img alt="slide 3" class="d-block w-100" src="./assets/img/slides/3.jpg">
+                <div class="carousel-caption-custom">
+                    <div class="carousel-caption-content">
+                        <h5>College Education</h5>
+                        <p>Awesome Template get it now</p>
+                        <button class="btn-pricing" data-bs-toggle="modal" data-bs-target="#pricingModal">See Pricing</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#carouselId" type="button">
+            <span aria-hidden="true" class="carousel-control-prev-icon"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" data-bs-slide="next" data-bs-target="#carouselId" type="button">
+            <span aria-hidden="true" class="carousel-control-next-icon"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </section>
+
+    <!-- FEATURE COURSE -->
+    <section id="feature-course">
+        <h1 class="m-5">Our Featured Courses</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget purus quis metus mattis dictum ut a sem. In condimentum erat ac nisl accumsan mollis. Quisque quis sodales lacus. Quisque eu lorem pellentesque, vulputate est ac, interdum tortor. Aenean eget ornare sem. Fusce tincidunt nisi facilisis dictum efficitur. Sed pulvinar sapien in sem dignissim, eget tincidunt erat facilisis. Nullam nec neque ac dui finibus consequat sed non magna. Ut mattis varius auctor.</p>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-sm-12 my-3">
+                    <div class="card">
+                        <div class="icon-feature-container" id="red-card">
+                            <i class="fa fa-trophy"></i>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Web Development</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-12 my-3">
+                    <div class="card">
+                        <div class="icon-feature-container" id="pink-card">
+                            <i class="fa fa-picture-o"></i>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">UI Design</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-12 my-3">
+                    <div class="card">
+                        <div class="icon-feature-container" id="green-card">
+                            <i class="fa fa-desktop"></i>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Interaction</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-12 my-3">
+                    <div class="card">
+                        <div class="icon-feature-container" id="blue-card">
+                            <i class="fa fa-globe"></i>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">User Experience</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- QUOTE -->
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <section class="quote">
+                <div>
+                    <p><i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ab cum voluptatibus illo nemo iusto repudiandae adipisci eaque, dignissimos ea ipsum unde praesentium enim, sint consectetur error odio! Quisquam, sapiente.</i></p>
+                    <p><b> <i>-Jaison Warner- </i></b></p>
+                </div>
+            </section>
+          </div>
+          <div class="carousel-item">
+            <section class="quote">
+                <div>
+                    <p><i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ab cum voluptatibus illo nemo iusto repudiandae adipisci eaque, dignissimos ea ipsum unde praesentium enim, sint consectetur error odio! Quisquam, sapiente.</i></p>
+                    <p><b> <i>-Anonymous XX- </i></b></p>
+                </div>
+            </section>
+          </div>
+          <div class="carousel-item">
+            <section class="quote">
+                <div>
+                    <p><i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex ab cum voluptatibus illo nemo iusto repudiandae adipisci eaque, dignissimos ea ipsum unde praesentium enim, sint consectetur error odio! Quisquam, sapiente.</i></p>
+                    <p><b> <i>-Anonymous XY- </i></b></p>
+                </div>
+            </section>
+          </div>
+        </div>
+      </div>
+
+    <!-- COURSES OFFER -->
+    <section id="course-offer">
+        <h1 class="m-5">Courses We Offer</h1>
+        <p class="container-p">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel, necessitatibus ipsa magnam repudiandae aliquid placeat. Quos, hic facere perspiciatis in beatae aperiam, incidunt quod dolor reprehenderit commodi eaque repellat aliquid?
+        Tempora, dolorem? Delectus enim atque, aut nam optio odit quos corrupti illo cum. Quos, dolorum! Laudantium illo fugiat aliquid reiciendis dolorem eum enim porro libero voluptatibus, nostrum tempore, modi quo.</p>
+        <div class="container my-3">
+            <section id="course-offer">
+                <div class="row my-5">
+                    <div class="col-lg-4 col-sm-12 my-2">
+                        <div class="card-offer p-4">
+                            <h5 class="card-title"><b>Heading Course</b></h5>
+                            <br>
+                            <div style="text-align: justify">
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum alias minima rerum! Doloremque fugiat nulla quia repellat tenetur corrupti reiciendis? </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-12 my-2">
+                        <div class="card-offer p-4">
+                            <h5 class="card-title"><b>Heading Course</b></h5>
+                            <br>
+                            <div style="text-align: justify">
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum alias minima rerum! Doloremque fugiat nulla quia repellat tenetur corrupti reiciendis? </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-12 my-2">
+                        <div class="card-offer p-4">
+                            <h5 class="card-title"><b>Heading Course</b></h5>
+                            <br>
+                            <div style="text-align: justify">
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum alias minima rerum! Doloremque fugiat nulla quia repellat tenetur corrupti reiciendis? </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-12 my-2">
+                        <div class="card-offer p-4">
+                            <h5 class="card-title"><b>Heading Course</b></h5>
+                            <br>
+                            <div style="text-align: justify">
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum alias minima rerum! Doloremque fugiat nulla quia repellat tenetur corrupti reiciendis? </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-12 my-2">
+                        <div class="card-offer p-4">
+                            <h5 class="card-title"><b>Heading Course</b></h5>
+                            <br>
+                            <div style="text-align: justify">
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum alias minima rerum! Doloremque fugiat nulla quia repellat tenetur corrupti reiciendis? </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-12 my-2">
+                        <div class="card-offer p-4">
+                            <h5 class="card-title"><b>Heading Course</b></h5>
+                            <br>
+                            <div style="text-align: justify">
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum alias minima rerum! Doloremque fugiat nulla quia repellat tenetur corrupti reiciendis? </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <section class="footer">
+        <div class="container">
+            <footer class="footer-content py-4">
+                <div class="row">
+                    <div class="col-sm-12 col-lg-3 footer-text">
+                        <h5>Our Contact</h5>
+                        <br>
+                        <p><b>SEA Digitalent</b></p>
+                        <p>PCP tower</p>
+                        <p>Pin-21542 Indonesia ID.</p>
+                        <br>
+                        <p>(123) 456-789 - 1255-12584</p>
+                        <p>email@domainname.com</p>
+                    </div>
+        
+                    <div class="col-sm-12 col-lg-3 footer-text">
+                        <h5>Quick Links</h5>
+                        <br>
+                        <p>Latest Events</p>
+                        <p>Terms and conditions</p>
+                        <p>Privacy policy</p>
+                        <p>Career</p>
+                        <p>Contact us</p>
+                    </div>
+        
+                    <div class="col-sm-12 col-lg-3 footer-text">
+                        <h5>Latest Posts</h5>
+                        <br>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, accusamus!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, dolorem?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate, ullam!</p>
+                    </div>
+        
+                    <div class="col-sm-12 col-lg-3 footer-text">
+                        <h5>Recent News</h5>
+                        <br>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, accusamus!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, dolorem?</p>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate, ullam!</p>
+                    </div>
+                </div>
+        
+                <div class="d-flex justify-content-between py-4 my-4">
+                    <p>© SEA Digitalent Site All right reserved. Template By example</p>
+                    <ul class="list-unstyled d-flex">
+                        <li class="ms-3"><a class="link-dark" href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li class="ms-3"><a class="link-dark" href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li class="ms-3"><a class="link-dark" href="#"><i class="fa fa-linkedin"></i></a></li>
+                        <li class="ms-3"><a class="link-dark" href="#"><i class="fa fa-pinterest"></i></a></li>
+                        <li class="ms-3"><a class="link-dark" href="#"><i class="fa fa-google-plus"></i></a></li>
+                    </ul>
+                </div>
+            </footer>
+        </div>
+    </section>
+
+        <!-- MODAL -->
+        <div class="modal fade px-auto mx-auto" id="pricingModal" tabindex="-1" aria-labelledby="pricingModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Pricing</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="container">
+                            <div class="row">
+                                <div class="pricing-card col-lg-3 col-sm-12 my-3">
+                                    <div class="card">
+                                        <div class="card-body pricing-header">
+                                            <h5 class="card-title"><b>Basic</b></h5>
+                                            <p class="card-text price-text"><b><i>$15.00 / Year</i></b></p>
+                                        </div>
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item">Responsive Design</li>
+                                            <li class="list-group-item">Bootstrap Design</li>
+                                            <li class="list-group-item">Unlimited Support</li>
+                                            <li class="list-group-item">Free Trial Version</li>
+                                            <li class="list-group-item">HTML5 CSS3 jQuery</li>
+                                        </ul>
+                                        <div class="card-footer">
+                                            <button class="btn-pricing">Get Now</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-sm-12 my-3">
+                                    <div class="card">
+                                        <div class="card-body pricing-header">
+                                            <h5 class="card-title"><b>Standard</b></h5>
+                                            <p class="card-text price-text"><b><i>$20.00 / Year</i></b></p>
+                                        </div>
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item">Responsive Design</li>
+                                            <li class="list-group-item">Bootstrap Design</li>
+                                            <li class="list-group-item">Unlimited Support</li>
+                                            <li class="list-group-item">Free Trial Version</li>
+                                            <li class="list-group-item">HTML5 CSS3 jQuery</li>
+                                        </ul>
+                                        <div class="card-footer">
+                                            <button class="btn-pricing">Get Now</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-sm-12 my-3">
+                                    <div class="card">
+                                        <div class="card-body pricing-header">
+                                            <h5 class="card-title"><b>Advanced</b></h5>
+                                            <p class="card-text price-text"><b><i>$15.00 / Year</i></b></p>
+                                        </div>
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item">Responsive Design</li>
+                                            <li class="list-group-item">Bootstrap Design</li>
+                                            <li class="list-group-item">Unlimited Support</li>
+                                            <li class="list-group-item">Free Trial Version</li>
+                                            <li class="list-group-item">HTML5 CSS3 jQuery</li>
+                                        </ul>
+                                        <div class="card-footer">
+                                            <button class="btn-pricing">Get Now</button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-sm-12 my-3">
+                                    <div class="card">
+                                        <div class="card-body pricing-header">
+                                            <h5 class="card-title"><b>Mighty</b></h5>
+                                            <p class="card-text price-text"><b><i>$15.00 / Year</i></b></p>
+                                        </div>
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item">Responsive Design</li>
+                                            <li class="list-group-item">Bootstrap Design</li>
+                                            <li class="list-group-item">Unlimited Support</li>
+                                            <li class="list-group-item">Free Trial Version</li>
+                                            <li class="list-group-item">HTML5 CSS3 jQuery</li>
+                                        </ul>
+                                        <div class="card-footer">
+                                            <button class="btn-pricing mx-auto">Get Now</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- BACK TO TOP -->
+    <!-- Back to top button -->
+    <button type="button" class="btn btn-danger btn-floating btn-lg" id="btn-back-to-top">
+        <i class="fa fa-arrow-up"></i>
+    </button>
+
+        <!-- JAVASCRIPT -->
+        <script crossorigin="anonymous" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"></script>
+        <script crossorigin="anonymous" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"></script>
+        <script src="./assets/js/back-to-top.js"></script>
+
+</body>
+</html>

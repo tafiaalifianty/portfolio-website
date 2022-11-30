@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tracker</title>
+    <link rel="stylesheet" href="assets/css/font-awesome.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/about.css">
+    <link rel="stylesheet" href="assets/css/courses.css">
+    <link rel="stylesheet" href="assets/css/tracker.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+
+</head>
+<body>
+    <!-- HOME -->
+    <div id="home" class="container my-5 center">
+        <a href="./index.html">Home</a>
+    </div>
+
+    <!-- TITLE EXPENSE TRACKER -->
+    <div class="container mb-5 center">
+        <h3><b>Expense Tracker</b></h3>
+    </div>
+
+    <!-- CARD -->
+    <div class="container my-3">
+        <section id="tracker-container" class="card container py-5" style="border:5px; border-radius: 30px; width: 30rem">
+            <div class="tracker-card">
+                <div class="mx-5 mt-5">
+                    <p>YOUR BALANCE</p>
+                    <p id="total-balance">RP 0</p>
+                </div>
+                <div class="mx-5">
+                    <div id="container-income-expense">
+                        <div id="income-text">
+                            <p>INCOME</p>
+                            <p id="income-nominal">+Rp 0</p>
+                        </div>
+                        <div class="border-end"></div>
+                        <div id="expense-text">
+                            <p>EXPENSE</p>
+                            <p id="expense-nominal">-Rp 0</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="mx-5">
+                    <br>
+                    <h5><b>History</b></h5>
+                    <hr>
+                    <ul id="list-history">
+                    </ul>
+                </div>
+                <br>
+                <div class="mx-5 my-5">
+                    <h5><b>New transaction</b></h5>
+                    <hr>
+                    <div id="form-transaction">
+                        <div class="form-input-custom my-3">
+                            <h6>Transaction Details</h6>
+                            <input id="details" type="text" placeholder="Enter details . . .">
+                        </div>
+                        <div class="form-input-custom my-3">
+                            <h6>Amount</h6>
+                            <h6>(negative - expense, positive - income)</h6>
+                            <input id="amount" type="number" placeholder="Enter amount . . .">
+                        </div>
+                        <div class="center my-5">
+                            <button class="btn btn-dark center" id="submit-amount" onclick="submit()">Add Transaction</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- BACK TO TOP -->
+    <!-- Back to top button -->
+    <button type="button" class="btn btn-danger btn-floating btn-lg" id="btn-back-to-top">
+        <i class="fa fa-arrow-up"></i>
+    </button>
+
+    <!-- JAVASCRIPT -->
+    <script crossorigin="anonymous" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"></script>
+    <script crossorigin="anonymous" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"></script>
+    <script src="./assets/js/tracker.js"></script>
+    <script src="./assets/js/back-to-top.js"></script>
+
+</body>
+</html>

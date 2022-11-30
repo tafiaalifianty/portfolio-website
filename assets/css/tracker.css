@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+
+body {
+    font-family: "JetBrains Mono" !important;
+}
+
+#home {
+    text-align: center;
+    margin-top: 5rem;
+}
+
+#home a {
+    font-size: x-large;
+}
+
+.center {
+    text-align: center;
+}
+
+#total-balance {
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+#container-income-expense {
+    display: flex;
+    justify-content: space-around;
+}
+
+#amount , #details{
+    width: 100%;
+}
+
+#submit-amount {
+    width: 100%;
+}
+
+/* Generate Color Using https://imagecolorpicker.com/en */
+
+#income-nominal {
+    color: #2fcb71
+}
+
+#expense-nominal {
+    color: #bf3a2b;
+}
+
+.tracker-card{
+    border-bottom-left-radius: 3em;
+    border-top-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    border-top-right-radius: 3em;
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+}
+
+/* .delete-btn {
+    cursor: pointer; 
+    background-color: rgb(221, 0, 0);
+    color: white;
+    border: 0ch;
+    font-size: 20px;
+    line-height: 20px;
+    padding: 3px 5px;
+    position: absolute;
+    top: 50%;
+    left: 12px;
+    transform: translate(-100%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease-in;
+  }
+  
+  .list-history-item div:hover .delete-btn {
+  opacity: 1;
+  } */
+
+/* #list-history {
+    display: flex;
+    justify-content: space-between;
+} */
+
+/* .delete-history {
+    background-color: #ffffff;
+    color: #000000;
+    height: 40px;
+    width: 40px;
+    ;
+} */
