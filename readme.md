@@ -59,13 +59,12 @@ Form requirements:
 
 In the **Contact info** section, if you click the email address, it will redirect to your email client.
 
-### Portfolio (optional)
+### Portfolio
 
 In this page, displayed several portfolio images. There are 4 buttons "All", "Web Design", "Mobile App", "UI Design"
 
 - If you click "All", all of the images will **show up**
 - If you click "Web Design", it will only show images which **belongs** to the web design category
-- It is up to you which portfolio belongs to which category, at least each categories must have 2 images (more is okay)
 
 ### Expense Tracker
 
